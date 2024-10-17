@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/diameterPizza1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Diameter of Pizza 1 (in inches)" />
+
+    <EditText
+        android:id="@+id/pricePizza1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price of Pizza 1" />
+
+    <EditText
+        android:id="@+id/diameterPizza2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Diameter of Pizza 2 (in inches)" />
+
+    <EditText
+        android:id="@+id/pricePizza2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price of Pizza 2" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Best Buy" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+</LinearLayout>
